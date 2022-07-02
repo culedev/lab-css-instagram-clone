@@ -50,11 +50,81 @@ article {
   justify-content: space-evenly;
   margin-left: auto;
   height: 50%;
+
+  /* background-image: url('../images/bgtile.png');
+  -webkit-mask-image: url('../images/frame.png');
+  mask-image: url('../images/frame.png');
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat; */
+
   background: linear-gradient(to top, #204b70, rgba(112, 140, 190, 0.534));
   box-shadow: 0 0 3px black;
-  border: 4px;
-  border-radius: 5px;
+  border: 4px;  
+  border-radius: 5px; 
   color: white;
   width: 100px;
   
+}
+
+.info {
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 6px 0 0 1px 1px black;
+  border-radius: 5px;
+  margin-top: 25px;
+  height: 100%;  
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  
+
+}
+
+.info h2 {
+  color: #06365f;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.button1 {
+background: url('../images/badge-iphone.png') no-repeat;
+border: none;
+width: 200px;
+height: 100px;
+}
+
+.button2 {
+background: url('../images/badge-android.png') no-repeat;
+border: none;
+width: 200px;
+height: 100px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+a {
+  margin: 0 10px;
+  text-decoration: none;
+  text-align: center;
+  color: rgba(8, 50, 122, 0.534);
+  font-weight: bold;
+}
+
+p {
+  margin-left: 20px;
 }
